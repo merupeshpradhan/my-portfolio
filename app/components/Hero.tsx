@@ -39,12 +39,15 @@ export default function Hero() {
         using React, Next.js, Node.js, and MongoDB.
       </motion.p>
 
-      <a
+      <motion.a
         href="#projects"
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.4 }}
         className="mt-8 px-6 py-3 bg-white text-black rounded-xl font-semibold hover:scale-105 transition"
       >
         View Projects
-      </a>
+      </motion.a>
     </section>
   );
 }

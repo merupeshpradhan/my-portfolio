@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export default function Skills() {
   const skills = [
     "React",
@@ -12,13 +16,14 @@ export default function Skills() {
   ];
 
   return (
-    <section
+    <motion.section
       id="skills"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
       className="py-24 px-6 max-w-5xl mx-auto text-white"
     >
-      <h2 className="text-4xl font-bold mb-8">
-        Skills
-      </h2>
+      <h2 className="text-4xl font-bold mb-8">Skills</h2>
 
       <div className="flex flex-wrap gap-4">
         {skills.map((skill) => (
@@ -30,6 +35,6 @@ export default function Skills() {
           </span>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 }

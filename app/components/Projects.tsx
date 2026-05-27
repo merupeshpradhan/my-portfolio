@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 import ProjectCard from "./ProjectCard";
 
 const projects = [
@@ -19,7 +23,13 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 px-6 max-w-5xl mx-auto text-white">
+    <motion.section
+      id="projects"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      className="py-24 px-6 max-w-5xl mx-auto text-white"
+    >
       <h2 className="text-4xl font-bold mb-10">Projects</h2>
 
       <div className="grid md:grid-cols-2 gap-8">
@@ -34,6 +44,6 @@ export default function Projects() {
           />
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 }

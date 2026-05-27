@@ -1,48 +1,76 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 px-6 max-w-3xl mx-auto text-white">
-      <h2 className="text-4xl font-bold mb-8 text-center">Contact Me</h2>
+    <motion.section
+      id="contact"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      className="py-24 px-6 max-w-3xl mx-auto text-white"
+    >
+      <motion.h2
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="text-4xl font-bold mb-8 text-center"
+      >
+        Contact Me
+      </motion.h2>
 
-      <p className="text-center text-zinc-400 mb-12">
+      <motion.p
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="text-center text-zinc-400 mb-12"
+      >
         Let's connect and build something amazing together 🚀
-      </p>
+      </motion.p>
 
       {/* Social Links */}
-      <div className="flex items-center justify-center gap-6 mb-16">
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="flex items-center justify-center gap-6 mb-16"
+      >
+        <a
+          href="https://github.com/merupeshpradhan"
+          target="_blank"
+          className="p-4 rounded-2xl bg-zinc-900 border border-zinc-800 hover:scale-110 transition"
+        >
+          <FaGithub size={28} />
+        </a>
 
-  <a
-    href="https://github.com/merupeshpradhan"
-    target="_blank"
-    className="p-4 rounded-2xl bg-zinc-900 border border-zinc-800 hover:scale-110 transition"
-  >
-    <FaGithub size={28} />
-  </a>
+        <a
+          href="https://www.linkedin.com/in/merupeshpradhan"
+          target="_blank"
+          className="p-4 rounded-2xl bg-zinc-900 border border-zinc-800 hover:scale-110 transition"
+        >
+          <FaLinkedin size={28} />
+        </a>
 
-  <a
-    href="https://www.linkedin.com/in/merupeshpradhan"
-    target="_blank"
-    className="p-4 rounded-2xl bg-zinc-900 border border-zinc-800 hover:scale-110 transition"
-  >
-    <FaLinkedin size={28} />
-  </a>
-
-  <a
-    href="https://x.com/RUPESHP94337497"
-    target="_blank"
-    className="p-4 rounded-2xl bg-zinc-900 border border-zinc-800 hover:scale-110 transition"
-  >
-    <FaXTwitter size={28} />
-  </a>
-
-</div>
+        <a
+          href="https://x.com/RUPESHP94337497"
+          target="_blank"
+          className="p-4 rounded-2xl bg-zinc-900 border border-zinc-800 hover:scale-110 transition"
+        >
+          <FaXTwitter size={28} />
+        </a>
+      </motion.div>
 
       {/* Contact Form */}
-      <form
+      <motion.form
         action="https://formsubmit.co/merupeshpradhan@gmail.com"
         method="POST"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
         className="flex flex-col gap-6"
       >
         <input
@@ -75,7 +103,7 @@ export default function Contact() {
         >
           Send Message
         </button>
-      </form>
-    </section>
+      </motion.form>
+    </motion.section>
   );
 }
