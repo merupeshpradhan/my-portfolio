@@ -1,15 +1,14 @@
 "use client";
 
-import { motion } from "framer-motion";
-
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 type Props = {
   title: string;
   desc: string;
   image: string;
-  live: string;
-  github: string;
+  live?: string;
+  github?: string;
 };
 
 export default function ProjectCard({
@@ -21,37 +20,59 @@ export default function ProjectCard({
 }: Props) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
-      className="bg-zinc-900 rounded-2xl border border-zinc-800 overflow-hidden"
+      transition={{ duration: 0.3 }}
+      className="max-w-[350px] bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden group"
     >
-      <div className="relative w-full h-56">
-        <Image src={image} alt={title} fill className="object-cover" />
+
+      {/* Image */}
+      <div className="relative w-full h-56 overflow-hidden">
+
+        <Image
+          src={image}
+          alt={title}
+          fill
+          className="object-cover transition duration-500"
+        />
+
+        {/* Hover Overlay */}
+        <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center gap-4">
+
+          {/* Live Button */}
+          {live && (
+            <a
+              href={live}
+              target="_blank"
+              className="px-4 py-2 bg-white text-black rounded-lg font-semibold"
+            >
+              Live
+            </a>
+          )}
+
+          {/* GitHub Button */}
+          {github && (
+            <a
+              href={github}
+              target="_blank"
+              className="px-4 py-2 border border-white text-white rounded-lg font-semibold"
+            >
+              GitHub
+            </a>
+          )}
+
+        </div>
       </div>
 
+      {/* Text */}
       <div className="p-6">
-        <h3 className="text-2xl font-bold">{title}</h3>
-        <p className="text-zinc-400 mt-2">{desc}</p>
 
-        {/* Buttons */}
-        <div className="flex gap-4 mt-6">
-          <a
-            href={live}
-            target="_blank"
-            className="px-4 py-2 bg-white text-black rounded-lg font-medium"
-          >
-            Live
-          </a>
+        <h3 className="text-2xl font-bold">
+          {title}
+        </h3>
 
-          <a
-            href={github}
-            target="_blank"
-            className="px-4 py-2 border border-zinc-700 rounded-lg"
-          >
-            GitHub
-          </a>
-        </div>
+        <p className="text-zinc-400 mt-3 leading-7">
+          {desc}
+        </p>
+
       </div>
     </motion.div>
   );
