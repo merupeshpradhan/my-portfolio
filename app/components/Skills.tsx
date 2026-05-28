@@ -9,6 +9,9 @@ import {
   FaLayerGroup,
   FaServer,
   FaTools,
+  FaLinux,
+  FaDocker,
+  FaKey,
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -17,6 +20,9 @@ import {
   SiMongodb,
   SiExpress,
   SiPostman,
+  SiVite,
+  SiFramer,
+  SiMongoose,
 } from "react-icons/si";
 
 // Grouping skills into functional categories
@@ -32,6 +38,8 @@ const skillCategories = [
         name: "Tailwind CSS",
         icon: <SiTailwindcss className="text-sky-400" />,
       },
+      { name: "Framer Motion", icon: <SiFramer className="text-pink-400" /> },
+      { name: "Vite", icon: <SiVite className="text-yellow-400" /> },
     ],
   },
   {
@@ -41,7 +49,9 @@ const skillCategories = [
       { name: "Node.js", icon: <FaNodeJs className="text-emerald-400" /> },
       { name: "Express.js", icon: <SiExpress className="text-slate-300" /> },
       { name: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
+      { name: "Mongoose", icon: <SiMongoose className="text-red-500" /> },
       { name: "REST APIs", icon: <FaServer className="text-teal-400" /> },
+      { name: "JWT Auth", icon: <FaKey className="text-yellow-400" /> },
     ],
   },
   {
@@ -51,6 +61,8 @@ const skillCategories = [
       { name: "Git", icon: <FaGitAlt className="text-orange-500" /> },
       { name: "GitHub", icon: <FaGithub className="text-white" /> },
       { name: "Postman", icon: <SiPostman className="text-orange-400" /> },
+      { name: "Docker", icon: <FaDocker className="text-sky-400" /> },
+      { name: "Linux", icon: <FaLinux className="text-yellow-300" /> },
     ],
   },
 ];
@@ -59,7 +71,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="py-20 sm:py-28 px-4 sm:px-8 lg:px-16 max-w-6xl mx-auto relative z-10 w-full"
+      className="py-10 sm:py-28 px-4 sm:px-8 lg:px-16 max-w-6xl mx-auto relative z-10 w-full"
     >
       {/* 1. SECTION TITLE WITH GLOW ACCENT */}
       <div className="text-center mb-16">

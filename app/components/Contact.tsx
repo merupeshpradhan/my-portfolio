@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-20 sm:py-28 px-4 sm:px-8 lg:px-16 max-w-4xl mx-auto relative z-10 w-full"
+      className="py-10 sm:py-28 px-4 sm:px-8 lg:px-16 max-w-4xl mx-auto relative z-10 w-full"
     >
       {/* 1. GLOWING SECTION TITLE */}
       <div className="text-center mb-12 sm:mb-16">

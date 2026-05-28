@@ -5,8 +5,10 @@ import { FaUser, FaGraduationCap } from "react-icons/fa";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 sm:py-28 px-4 sm:px-8 lg:px-16 max-w-6xl mx-auto relative z-10 w-full">
-      
+    <section
+      id="about"
+      className="py-10 sm:py-28 px-4 sm:px-8 lg:px-16 max-w-6xl mx-auto relative z-10 w-full"
+    >
       {/* 1. SECTION TITLE WITH GLOW ACCENT */}
       <div className="text-center mb-12 sm:mb-16">
         <h2 className="text-3xl sm:text-5xl font-black tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
@@ -17,7 +19,6 @@ export default function About() {
 
       {/* 2. MAIN LAYOUT GRID */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        
         {/* Left Column: Story Block (Spans 6 blocks on desktop) */}
         <motion.div
           initial={{ opacity: 0, x: -30 }}
@@ -27,28 +28,33 @@ export default function About() {
           className="lg:col-span-6 p-6 sm:p-8 rounded-2xl bg-[#05050a]/40 backdrop-blur-md border border-white/5 shadow-2xl relative overflow-hidden group"
         >
           <div className="absolute -right-20 -bottom-20 w-60 h-60 bg-indigo-500/10 rounded-full blur-3xl group-hover:bg-cyan-500/10 transition-colors duration-500" />
-          
+
           <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 flex items-center gap-3">
             <FaUser className="text-cyan-400 text-lg drop-shadow-[0_0_6px_rgba(34,211,238,0.4)]" />
             My Journey
           </h3>
-          
+
           <p className="text-gray-400 leading-relaxed text-sm sm:text-base font-medium mb-4">
-            I am a passionate Full Stack Developer focused on building high-performance web applications. I love turning complex logic into beautiful, user-friendly layouts that look amazing on any device.
+            I am a passionate Full Stack Developer focused on building
+            high-performance web applications. I love turning complex logic into
+            beautiful, user-friendly layouts that look amazing on any device.
           </p>
-          
+
           <p className="text-gray-400 leading-relaxed text-sm sm:text-base font-medium">
-            With a solid theoretical foundation in computer science and extensive practical stack experience, I connect clean server architectures with responsive user interfaces.
+            With a solid theoretical foundation in computer science and
+            extensive practical stack experience, I connect clean server
+            architectures with responsive user interfaces.
           </p>
         </motion.div>
 
         {/* Right Column: Premium Education Timeline (Spans 6 blocks on desktop) */}
         <div className="lg:col-span-6 flex flex-col gap-5 w-full">
-          
           {/* Header for Education Timeline */}
           <div className="flex items-center gap-3 px-2 mb-1">
             <FaGraduationCap className="text-indigo-400 text-xl" />
-            <h3 className="text-lg font-bold text-white tracking-wide">Education</h3>
+            <h3 className="text-lg font-bold text-white tracking-wide">
+              Education
+            </h3>
           </div>
 
           {/* Timeline Degree Card 1 - MCA */}
@@ -70,9 +76,7 @@ export default function About() {
             <p className="text-sm font-semibold text-slate-300 mt-2">
               Silicon University
             </p>
-            <p className="text-xs text-slate-500 mt-0.5">
-              Bhubaneswar, India
-            </p>
+            <p className="text-xs text-slate-500 mt-0.5">Bhubaneswar, India</p>
           </motion.div>
 
           {/* Timeline Degree Card 2 - BSc */}
@@ -94,15 +98,10 @@ export default function About() {
             <p className="text-sm font-semibold text-slate-300 mt-2">
               Government Autonomous College
             </p>
-            <p className="text-xs text-slate-500 mt-0.5">
-              Angul, India
-            </p>
+            <p className="text-xs text-slate-500 mt-0.5">Angul, India</p>
           </motion.div>
-
         </div>
-
       </div>
-
     </section>
   );
 }
