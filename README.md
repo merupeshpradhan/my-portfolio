@@ -42,6 +42,7 @@ Example:
 
 ```md
 ![Portfolio Preview](https://github.com/user-attachments/assets/fe87473b-7c8f-412c-a62e-f0d163624fe0 />)
+![Login Screenshot](https://github.com/user-attachments/assets/20d2499b-a16a-472b-9517-c04359db9f6f)
 ```
 
 ---
