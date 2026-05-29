@@ -35,14 +35,8 @@ https://www.rupeshpradhan.com/
 # 📸 Preview
 
 ```md
-Add your project screenshot here
-```
-
-Example:
-
-```md
-![Portfolio Preview](https://github.com/user-attachments/assets/fe87473b-7c8f-412c-a62e-f0d163624fe0 />)
-![Login Screenshot](https://github.com/user-attachments/assets/20d2499b-a16a-472b-9517-c04359db9f6f)
+![Portfolio Preview](<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/7d1ac22c-b749-4948-b224-4301ce780b2f" />
+)
 ```
 
 ---
