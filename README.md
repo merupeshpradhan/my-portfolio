@@ -35,8 +35,7 @@ https://www.rupeshpradhan.com/
 # 📸 Preview
 
 ```md
-![Portfolio Preview](<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/7d1ac22c-b749-4948-b224-4301ce780b2f" />
-)
+![Portfolio Preview](https://github.com/user-attachments/assets/7d1ac22c-b749-4948-b224-4301ce780b2f)
 ```
 
 ---
