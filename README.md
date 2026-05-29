@@ -34,10 +34,10 @@ https://www.rupeshpradhan.com
 
 # 📸 Preview
 
-```md
-<img width="1919" height="1020" alt="Screenshot 2026-05-29 082143" src="https://github.com/user-attachments/assets/967bd002-f20d-40ab-b52d-94adc46a068d" />
+![Login Screenshot](<img width="1919" height="1020" alt="Screenshot 2026-05-29 082143" src="https://github.com/user-attachments/assets/19238bab-cdc7-48e2-8e4c-c5fa29d265f0" />
+)
 
-```
+---
 
 ---
 
