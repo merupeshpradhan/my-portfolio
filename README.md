@@ -34,10 +34,8 @@ https://www.rupeshpradhan.com/
 
 # 📸 Preview
 
-```md
-![Portfolio Preview]<img width="1919" height="1016" alt="Screenshot 2026-05-29 085000" src="https://github.com/user-attachments/assets/50841277-b522-462f-942c-9fe3d77ff9a0" />
+![Portfolio Preview](https://github.com/user-attachments/assets/50841277-b522-462f-942c-9fe3d77ff9a0)
 
-```
 
 ---
 
