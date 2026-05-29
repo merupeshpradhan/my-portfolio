@@ -102,12 +102,7 @@ my-portfolio/
 │   │   ├── StopwatchTimer.png
 │   │   ├── TicTacToe.png
 │   │   └── WebCheckbox.png
-│   ├── file.svg
-│   ├── globe.svg
-│   ├── next.svg
-│   ├── Rupesh_Pradhan_Resume.pdf
-│   ├── vercel.svg
-│   └── window.svg
+│   └── Rupesh_Pradhan_Resume.pdf
 └── types/
 
 ```
