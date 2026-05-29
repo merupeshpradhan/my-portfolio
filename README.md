@@ -41,8 +41,7 @@ Add your project screenshot here
 Example:
 
 ```md
-![Portfolio Preview](<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/fe87473b-7c8f-412c-a62e-f0d163624fe0" />
-)
+![Portfolio Preview](https://github.com/user-attachments/assets/fe87473b-7c8f-412c-a62e-f0d163624fe0 />)
 ```
 
 ---
