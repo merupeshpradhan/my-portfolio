@@ -1,3 +1,5 @@
+import { Toaster } from "react-hot-toast";
+
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -15,6 +17,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className="bg-[#05050a] text-white antialiased min-h-screen">
         {children}
+        <Toaster position="top-right" />
       </body>
     </html>
   );
