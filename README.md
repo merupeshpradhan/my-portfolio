@@ -3,7 +3,7 @@
 A modern, fast, and fully responsive personal portfolio website built using Next.js, React, TypeScript, Tailwind CSS, and Framer Motion.
 
 🌐 **Live Demo:**
-https://www.rupeshpradhan.com
+https://www.rupeshpradhan.com/
 
 ---
 
@@ -34,10 +34,16 @@ https://www.rupeshpradhan.com
 
 # 📸 Preview
 
-![Login Screenshot](<img width="1919" height="1020" alt="Screenshot 2026-05-29 082143" src="https://github.com/user-attachments/assets/19238bab-cdc7-48e2-8e4c-c5fa29d265f0" />
-)
+```md
+Add your project screenshot here
+```
 
----
+Example:
+
+```md
+![Portfolio Preview](<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/fe87473b-7c8f-412c-a62e-f0d163624fe0" />
+)
+```
 
 ---
 
@@ -46,7 +52,7 @@ https://www.rupeshpradhan.com
 Clone the repository:
 
 ```bash
-git clone https://github.com/merupeshpradhan/[your-repository-name.git](https://github.com/merupeshpradhan/my-portfolio)
+git clone https://github.com/merupeshpradhan/my-portfolio
 ```
 
 Move into the project folder:
@@ -78,7 +84,6 @@ http://localhost:3000
 # 📁 Folder Structure
 
 ```bash
-src/
 my-portfolio/
 ├── .next/
 ├── app/
@@ -117,32 +122,6 @@ my-portfolio/
 
 ---
 
-# 🚀 Featured Projects
-
-## ⏱️ Chronos Engine (Timer App)
-
-A futuristic stopwatch and timer application with animated circular progress indicators.
-
----
-
-## ❌⭕ Tic Tac Toe Grid
-
-Classic interactive Tic Tac Toe game built with smart local state management.
-
----
-
-## 📍 Location Tracker
-
-Real-time location tracking application with live map updates and route visualization.
-
----
-
-## ☑️ 1 Million Checkboxes
-
-Scalable real-time checkbox application built using WebSockets and optimized synchronization.
-
----
-
 # 🎨 UI Highlights
 
 * Smooth Hover Effects
@@ -154,23 +133,10 @@ Scalable real-time checkbox application built using WebSockets and optimized syn
 
 ---
 
-# 📚 Learning & Inspiration
-
-Special thanks to:
-
-* Suraj Kumar Jha
-* Hitesh Choudhary
-* Piyush Garg
-* Chai Aur Code Community
-
-for the amazing teaching, guidance, and inspiration ❤️
-
----
-
 # 📬 Connect With Me
 
 🌐 Portfolio:
-https://www.rupeshpradhan.com/
+https://www.rupeshpradhan.com
 
 💻 GitHub:
 https://github.com/merupeshpradhan
