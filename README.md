@@ -3,7 +3,7 @@
 A modern, fast, and fully responsive personal portfolio website built using Next.js, React, TypeScript, Tailwind CSS, and Framer Motion.
 
 🌐 **Live Demo:**
-https://rupeshpradhan-web.vercel.app
+https://merupeshpradhan.vercel.app
 
 ---
 
