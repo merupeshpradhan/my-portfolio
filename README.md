@@ -123,7 +123,7 @@ my-portfolio/
 # 📬 Connect With Me
 
 🌐 Portfolio:
-https://rupeshpradhan-web.vercel.app
+https://merupeshpradhan.vercel.app
 
 💻 GitHub:
 https://github.com/merupeshpradhan
